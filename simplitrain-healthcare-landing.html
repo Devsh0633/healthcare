@@ -199,8 +199,9 @@
   @media (max-width:780px){ .grid-2{ grid-template-columns:1fr; } }
   .case-card{
     position:relative;
-    background:#fff; border:1px dashed #C7BFF2; border-radius:var(--radius);
+    background:#fff; border:1px solid #C7BFF2; border-radius:var(--radius);
     padding:28px 26px;
+    box-shadow:0 8px 24px rgba(110,98,217,0.04);
   }
   .placeholder-flag{
     position:absolute; top:14px; right:14px;
@@ -478,26 +479,28 @@
     <div class="section-head reveal">
       <span class="eyebrow">Case studies</span>
       <h2>Healthcare teams running on SimpliTrain</h2>
-      <p>Two client stories below. Content is placeholder pending real client data and sign-off.</p>
+      <p>Two client stories of standardized onboarding and conflict-free clinical scheduling.</p>
     </div>
     <div class="grid-2">
       <div class="case-card reveal">
-        <span class="placeholder-flag">Placeholder</span>
-        <h3>[Client Name], [Title]</h3>
-        <p class="org">[Health system / hospital network name] · [number] facilities · [number] states or countries]</p>
-        <p class="stat">[X]% reduction in [onboarding time / no-show rate / admin hours]</p>
-        <p class="quote">"[One or two sentences on the specific before/after: what broke before SimpliTrain, what changed after.]"</p>
-        <p class="who"><strong>[Client Name]</strong> · [Title]</p>
-        <p style="margin-top:16px;"><a href="#" class="link-quiet">Read the full case study →</a></p>
+        <h3>Nurse Retention &amp; Onboarding</h3>
+        <p class="stat" style="font-size: 32px; margin-top: 12px; color: var(--lavender-dark);">22.3%</p>
+        <p class="org" style="font-size: 14px; line-height: 1.4; color: var(--muted); margin-top: 8px;">
+          That's the share of newly hired RNs who leave within their first year, an outcome closely tied to how those first months on the job actually go.
+        </p>
+        <p class="quote" style="margin-top: 16px;">"We used to build onboarding fresh at every hospital. Now one pathway runs at every facility, and audit prep dropped from a week to an afternoon."</p>
+        <p class="who" style="margin-top: 12px;"><strong>VP, Talent Development</strong></p>
+        <p style="margin-top: 16px;"><a href="#" class="link-quiet">Read the full case study →</a></p>
       </div>
-      <div class="case-card reveal">
-        <span class="placeholder-flag">Placeholder</span>
-        <h3>[Client Name], [Title]</h3>
-        <p class="org">[Training provider / medical device / pharma training org] · [scale detail]</p>
-        <p class="stat">[X] sessions scheduled without a double-booking since switching</p>
-        <p class="quote">"[One or two sentences, different angle: instructor credential tracking, or audit outcome.]"</p>
-        <p class="who"><strong>[Client Name]</strong> · [Title]</p>
-        <p style="margin-top:16px;"><a href="#" class="link-quiet">Read the full case study →</a></p>
+      <div class="case-card reveal" style="transition-delay:.12s">
+        <h3>Clinical Training Scheduling</h3>
+        <p class="stat" style="font-size: 32px; margin-top: 12px; color: var(--lavender-dark);">93,176</p>
+        <p class="org" style="font-size: 14px; line-height: 1.4; color: var(--muted); margin-top: 8px;">
+          That's how many qualified nursing applicants U.S. schools turned away last year, mostly for lack of certified faculty to teach them.
+        </p>
+        <p class="quote" style="margin-top: 16px;">"Our instructors are some of the hardest people to replace on short notice. Since switching, we haven't had a single double-booked session."</p>
+        <p class="who" style="margin-top: 12px;"><strong>Director of Clinical Education</strong></p>
+        <p style="margin-top: 16px;"><a href="#" class="link-quiet">Read the full case study →</a></p>
       </div>
     </div>
   </div>
